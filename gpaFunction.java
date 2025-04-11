@@ -34,7 +34,7 @@ public class gpaApp {
         double [] credits = new double[numberOfClasses];
 
         for(int j =0; j < numberOfClasses; j++){
-            System.out.println("What was your grade class " +num);
+            System.out.println("What was your grade in class " +num);
             grades[location] = userinput.nextDouble();
 
             System.out.println("How many credits was class " +num);
